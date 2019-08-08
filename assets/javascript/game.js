@@ -5,29 +5,29 @@ $(document).ready(function () {
         return Math.floor(Math.random() * (max - min)) + min
     }
 
-    function JQ(tag) {
-        this.isClass = function (tag) {
-            if (tag[0] === ".") {
-                return true
-            }
-        }
-        this.isId = function (tag) {
-            if (tag[0] === "#") {
-                return true
-            }
-        }
-        this.on = function(listener, cb){
-            if(listener === "click"){
-                if(this.isId){
-                    document.getElementById(tag.split("").slice(1).join("")).addEventListener("click", cb)
-                }
-            }
-        }
-    }
-    var jq = new JQ("#button")
-    jq.on("click", function(){
-        console.log("created our own jquery")
-    })
+    // function JQ(tag) {
+    //     this.isClass = function (tag) {
+    //         if (tag[0] === ".") {
+    //             return true
+    //         }
+    //     }
+    //     this.isId = function (tag) {
+    //         if (tag[0] === "#") {
+    //             return true
+    //         }
+    //     }
+    //     this.on = function(listener, cb){
+    //         if(listener === "click"){
+    //             if(this.isId){
+    //                 document.getElementById(tag.split("").slice(1).join("")).addEventListener("click", cb)
+    //             }
+    //         }
+    //     }
+    // }
+    // var jq = new JQ("#button")
+    // jq.on("click", function(){
+    //     console.log("created our own jquery")
+    // })
 
     // Set up Variable for Crystal 1-4
     // var Crystal1 = 0;
