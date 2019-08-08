@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collectors</title>
+
+    <!-- Link my CSS stylesheet -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <style></style>
+
+</head>
+
+<body>
+
+    <h1>Crystal Collectors</h1>
+    <p> You have been given a random number.......</p>
+
+    <!-- implement div to hold the target number the user is try to reach -->
+    <div>
+        Target Score: <span id="targetNumber"> 0 </span>
+    </div>
+
+    <button id="button">TEST</button>
+
+    <!-- display crystals on screen -->
+    <div id="imageBlock">
+        <span id="crystal1" class="crystal-btn">
+            <img src="assets/images/Crystal 1.JPG" alt="crystal1">
+        </span>
+        <span id="crystal2" class="crystal-btn">
+            <img src="assets/images/Crystal 2.JPG" alt="crystal2">
+        </span>
+        <span id="crystal3" class="crystal-btn">
+            <img src="assets/images/Crystal 3.JPG" alt="crystal3">
+        </span>
+        <span id="crystal4" class="crystal-btn">
+            <img src="assets/images/Crystal 4.JPG" alt="crystal4">
+        </span>
+    </div>
+
+    <!-- implement div to display the users cummulative score -->
+    <div>
+        Current Score:<span id="userNumber"> 0</span>
+    </div>
+    <div>
+        Wins:<span id="wins"> 0</span>
+    </div>
+    <div>
+        Losses:<span id="losses"> 0</span>
+    </div>
+
+    <!-- Link to Javascript  -->
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
