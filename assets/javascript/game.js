@@ -73,10 +73,12 @@ $(document).ready(function () {
 
         if (userNumber > targetNumber) {
             losses++;
+            alert("You Lost! Better luck next time")
             Start();
         }
         else if (userNumber === targetNumber) {
             wins++;
+            alert("You won! Keep trying")
             Start();
         }
     }

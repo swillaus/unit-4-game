@@ -1,4 +1,4 @@
-* {
+body {
     background-color: lightblue;
     margin: 15px;
 }
@@ -9,17 +9,18 @@ h1{
     background-color: orange;
     color: white;
     margin: 15px;
-    clear: both;
-    width: 50%;
+    padding: 15px;
+    width: 800px;
 }
 
 p {
     height: 300px;
     margin: 15px;
     background-color: #FFE3C6;
-    width: 50%;
+    width: 800px;
     padding: 15px;
     color: green;
+    font-size: 18px;
     }
 
 
@@ -37,22 +38,27 @@ img {
     clear: both;
 }
 
-#TargetScoreBlock {
+#WinsLosses, #TargetScoreBlock {
     background-color: darkolivegreen;
     width: 25%;
-    height: 40px;
+    height: 100px;
     float: left;
     margin-left: 15px;
-    clear: both;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#userNumberBlock {
+    background-color: yellow;
+    width: 25%;
+    height: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 30px;
 
 }
 
-#WinsLosses {
-    background-color: darkolivegreen;
-    width: 25%;
-    height: 40px;
-    float: left;
-    margin-left: 15px;
 
-}
 
